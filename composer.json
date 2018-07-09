@@ -1,0 +1,20 @@
+{
+    "name": "backendtea/un-poly-util",
+    "description": "Removes the symfony/polyfill-util polyfill from your project",
+    "keywords": [
+        "polyfill",
+        "util",
+        "removal"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gert de Pagter",
+            "email": "BackEndTea@gmail.com"
+        }
+    ],
+    "replace": {
+        "symfony/polyfill-util": "*"
+    }
+}
